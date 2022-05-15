@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+    background-color:rgb(2, 148, 255,0.01);
+}
 @layer base {
     html {
         font-size: 62.5%;

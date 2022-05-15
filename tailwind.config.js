@@ -24,12 +24,18 @@ module.exports = {
       },
       gray: {
         main: "#647787",
-        background: "#E5E5E5",
+        background: "rgba(206, 208, 218, 0.2)",
         paymentHeader: "#EAEEF0",
         placeHolder: "#979797",
+        dashboard: " #787C90",
       },
       opacity: {
-        blue: "rgba(24, 117, 240, 1)",
+        blue: "rgba(24, 117, 240, 0.1)",
+        borderBlue: " #EEF8FD",
+      },
+      black: {
+        black: " #000000",
+        blackGrey: "#4F4F4F",
       },
     },
     borderRadius: {
@@ -872,7 +878,7 @@ module.exports = {
         200: "20rem",
         250: "25rem",
         300: "30rem",
-        "330px": "330px",
+        329: "32.9rem",
         350: "35rem",
         400: "39rem",
         439: "43.9rem",
