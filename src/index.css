@@ -1,3 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    html {
+        font-size: 62.5%;
+    }
+
+  
+      h1 {
+        @apply  text-2xl ;
+    }
+
+    h2 {
+        @apply text-xl;
+    }
+
+      h3 {
+        @apply text-lg  text-gray-main;
+    }
+   
+    h4 {
+        @apply text-md;
+    }
+
+    h5 {
+        @apply text-sm;
+    }
+
+    h6 {
+        @apply text-xs text-gray-main;
+    }
+
+
+}

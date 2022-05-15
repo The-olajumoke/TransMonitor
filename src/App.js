@@ -1,8 +1,8 @@
 import logo from "./logo.svg";
 import "./App.css";
-
+import Overview from "./Pages/overview";
 function App() {
-  return <div className="text-red-500">hello</div>;
+  return <Overview />;
 }
 
 export default App;
