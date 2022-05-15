@@ -2,8 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-    background-color:rgb(2, 148, 255,0.01);
+::-webkit-progress-bar{
+    height: 4px;
+    border-radius: 20px;
+    background-color: #FDC203;
+}
+::-webkit-progress-value{
+    height: 4px;
+    border-radius: 20px;
+    background-color: #27AE60;
 }
 @layer base {
     html {

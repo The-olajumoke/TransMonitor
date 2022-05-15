@@ -28,19 +28,22 @@ module.exports = {
         paymentHeader: "#EAEEF0",
         placeHolder: "#979797",
         dashboard: " #787C90",
+        timeRange: "#7F8FA4",
       },
       opacity: {
         blue: "rgba(24, 117, 240, 0.1)",
         borderBlue: " #EEF8FD",
+        borderGrey: "#DDE0E3",
       },
       black: {
         black: " #000000",
         blackGrey: "#4F4F4F",
+        orderBlack: " #262626",
       },
     },
     borderRadius: {
       sm: "2px",
-      md: "6px",
+      md: "4.25px",
       DEFAULT: "8px",
       lg: "30px",
       full: "100%",
