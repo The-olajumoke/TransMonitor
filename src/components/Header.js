@@ -5,7 +5,7 @@ import search from "../Images/search.svg";
 import Notification from "../Images/notification_icon.svg";
 const Header = () => {
   return (
-    <div className=" h-60 pl-42 pr-80 shadow-lg flex justify-between items-center w-full bg-white-white">
+    <div className=" h-60 pl-42 pr-80 shadow-lg flex justify-between items-center w-full bg-white-white fixed z-50">
       <div className="flex">
         <div className=" flex items-center w-153 mr-66">
           <img src={Logo} alt="Logo" />

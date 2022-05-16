@@ -11,7 +11,7 @@ import merchant from "../Images/merchant.svg";
 import SidebarItems from "./SidebarItems";
 const Sidebar = () => {
   return (
-    <div className=" w-260 pt-33">
+    <div className=" w-260 pt-33 fixed  z-50 ">
       <button className="w-163 h-33 mb-32 bg-primary-limeGreen text-white-white text-sm py-9 px-26  rounded-lg  font-bold leading-3 ml-42">
         GENERATE INVOICE
       </button>

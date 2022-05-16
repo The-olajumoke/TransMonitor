@@ -29,6 +29,8 @@ module.exports = {
         placeHolder: "#979797",
         dashboard: " #787C90",
         timeRange: "#7F8FA4",
+        paymentName: "#414042",
+        borderLine: "#CCCFD4",
       },
       opacity: {
         blue: "rgba(24, 117, 240, 0.1)",

@@ -12,6 +12,23 @@
     border-radius: 20px;
     background-color: #27AE60;
 }
+
+.tableHeader {
+    border-bottom: 0.5px solid #caceca;
+    height: 5.2rem;
+}
+.tableRow {
+    height: 7.8rem;
+}
+
+.tableHeader,
+.tableRow {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 4rem 4rem 8rem 16rem 16rem repeat(4, minmax(0, 14.3rem)) 3rem;
+    align-items: center;
+    padding: 0 1.6rem;
+}
 @layer base {
     html {
         font-size: 62.5%;

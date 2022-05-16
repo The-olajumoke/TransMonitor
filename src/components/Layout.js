@@ -6,10 +6,14 @@ const Layout = ({ children }) => {
   return (
     <div>
       <Header />
-      <div className="flex w-full h-screen">
+      <div className="flex-col w-full ">
+        <div className="h-60"></div>
         <Sidebar />
-        <div className="border flex-grow bg-gray-background pl-30 pt-33 pr-82">
-          {children}
+        <div className="flex w-full">
+          <div className="w-260 "></div>
+          <div className=" flex-grow bg-gray-background pl-30 pt-33 pr-82 overflow-y-scroll">
+            {children}
+          </div>
         </div>
       </div>
     </div>
