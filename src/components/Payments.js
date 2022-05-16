@@ -11,7 +11,7 @@ const Payments = () => {
       <div className="w-full flex items-center mb-23">
         <h4 className=" text-black-orderBlack mr-20">Showing</h4>
         <div className="flex items-center  gap-2 mr-57">
-          <h4 className=" text-primary-blue">20</h4>
+          <h4 className=" text-primary-blue font-medium">20</h4>
           <img src={arrowBlue} alt="" />
           <h4 className=" text-black-orderBlack">out of 500 payments</h4>
         </div>
@@ -114,12 +114,12 @@ const Payments = () => {
         ))}
       </div>
       <div className=" flex justify-between mt-31 mb-72">
-        <h4>Showing 1 to 10 of 500 entries</h4>
+        <h4 className=" font-medium">Showing 1 to 10 of 500 entries</h4>
         <div>
           <button className="px-13 py-6 border border-gray-borderLine text-md">
             Previous
           </button>
-          <button className="px-13 py-6 border border-gray-borderLine text-md  bg-primary-blue text-white-white">
+          <button className="px-13 py-6 border border-primary-blue text-md  bg-primary-blue text-white-white">
             1
           </button>
           <button className="px-13 py-6 border border-gray-borderLine text-md">

@@ -20,7 +20,7 @@ const PaymentsTableRow = ({
       <div className="text-gray-timeRange text-lg">{transactionNo}</div>
       <div className="text-gray-timeRange text-lg">{time}</div>
       <div className="text-gray-timeRange text-lg flex items-center justify-between ">
-        <div className="border border-gray-borderLine flex items-center  rounded-lg w-120 justify-center px-3 h-33">
+        <div className="border border-gray-borderLine flex items-center  rounded-lg w-130 justify-start mr-8 px-4 pl-12 h-33">
           <div
             className={`h-9 w-9 mr-8 rounded-full ${
               status === "Pending" && " bg-primary-pureOrange"

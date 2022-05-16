@@ -6,7 +6,7 @@ const DashboardItems = ({ title, amount, chart }) => {
     <div className=" p-18 flex justify-between bg-white-white rounded-sm border border-opacity-borderBlue">
       <div>
         <h5 className=" text-gray-dashboard">{title}</h5>
-        <h2>{amount}</h2>
+        <h2 className=" font-medium">{amount}</h2>
       </div>
       <div className="w-62 relative">
         <img src={lineChart} alt="" className=" absolute right-0 left-0" />

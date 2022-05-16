@@ -12,7 +12,7 @@ const ChartOverview = () => {
     >
       <div className=" col-span-2 bg-white-white">
         <div className="px-34 py-26 mb-45 flex justify-between items-center">
-          <h2 className=" text-black-blackGrey font-medium">
+          <h2 className=" text-black-blackGrey font-bold">
             Today: 5, Aug 2018
           </h2>
           <div className=" flex items-center">
