@@ -14,7 +14,7 @@ const Header = () => {
           <img src={search} alt="" className="mr-16 w-12" />
           <input
             type="text"
-            className=" text-gray-placeHolder text-sm"
+            className=" outline-none text-gray-placeHolder text-sm"
             placeholder="Search..."
           />
         </div>

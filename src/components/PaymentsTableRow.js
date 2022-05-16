@@ -9,7 +9,7 @@ const PaymentsTableRow = ({
   status,
 }) => {
   return (
-    <div className=" bg-white-white px-26 py-12 h-76 grid grid-cols-7 items-center border-b border-gray-borderLine text-lg">
+    <div className=" bg-white-white px-26 py-12 h-76 grid grid-cols-7 items-center border-b border-gray-borderLine text-lg last-of-type:border-none">
       <div className=" col-span-3 text-gray-timeRange text-lg flex  items-center">
         <div className=" bg-gray-timeRange rounded-full h-36 w-36 mr-36 text-white-white  text-sm flex justify-center items-center">
           {type}
@@ -26,12 +26,13 @@ const PaymentsTableRow = ({
               status === "Pending" && " bg-primary-pureOrange"
             }
              ${status === "Reconcilled" && " bg-primary-limeGreen"}
-             ${status === "Reconcilled" && " bg-primary-limeGreen"}
+             ${status === "Un-reconcilled" && " bg-gray-status"}
             `}
           ></div>
           <h3
             className={`${status === "Pending" && " text-primary-pureOrange"}
               ${status === "Reconcilled" && " text-primary-limeGreen"}
+                   ${status === "Un-reconcilled" && " text-gray-timeRange"}
             `}
           >
             {status}

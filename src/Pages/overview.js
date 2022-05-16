@@ -25,7 +25,7 @@ const Overview = () => {
             />
           </div>
         </div>
-        <ChartOverview />   
+        <ChartOverview />
 
         <Payments />
       </div>

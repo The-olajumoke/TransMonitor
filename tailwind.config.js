@@ -31,6 +31,9 @@ module.exports = {
         timeRange: "#7F8FA4",
         paymentName: "#414042",
         borderLine: "#CCCFD4",
+        status: " #C4C4C4",
+        hover: "#F4F4F4",
+        hoverText: "#F4F4F4",
       },
       opacity: {
         blue: "rgba(24, 117, 240, 0.1)",
@@ -669,6 +672,7 @@ module.exports = {
         200: "20rem",
         260: "26rem",
         330: "33.3rem",
+        336: "33.6rem",
         384: "38.4rem",
         404: "40.4rem",
         432: "43.2rem",
